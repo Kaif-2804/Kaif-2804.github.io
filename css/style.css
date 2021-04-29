@@ -77,3 +77,9 @@
      color: white;
     }
 }
+
+.profile-link > a {
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+}
