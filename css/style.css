@@ -1,3 +1,7 @@
+.body-section{
+    background-color:blueviolet;
+
+}
 .welcome {
     height: 100vh;
     background-color: aquamarine;
@@ -7,9 +11,6 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
 }
-
-
-
 
 .project-tile{
     display: grid;
