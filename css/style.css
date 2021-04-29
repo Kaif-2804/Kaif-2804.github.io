@@ -2,31 +2,6 @@
     background-color:rgb(219, 209, 228);
 
 }
-.welcome {
-    height: 100vh;
-    background-color: aquamarine;
-    background-attachment: fixed;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-}
-
-.project-tile{
-    display: grid;
-    grid-gap: 20x 20x;
-    grid-template-columns: auto auto;
-    background-color: palegreen;
-}
-.project-container{
-    display: grid;
-    grid-column-gap: 10px;
-    background-color: peru;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-}
 
 .nav {
     font-size: 16px;
@@ -55,4 +30,38 @@
  
 .nav li a:hover {
     background-color: turquoise;
+}
+
+.welcome {
+    height: 100vh;
+    background-color: aquamarine;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.project-tile{
+    display: grid;
+    grid-gap: 20x 20x;
+    grid-template-columns: auto auto;
+    background-color: palegreen;
+}
+.project-container{
+    display: grid;
+    grid-column-gap: 10px;
+    background-color: peru;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.grid-item {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
