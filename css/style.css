@@ -71,12 +71,10 @@
 
 }
 
-@media (max-width: 600px) {
-    .head {
-     background-color: black;
-     color: white;
-    }
+.contact-section {
+    color: rgb(0, 0, 0);
 }
+
 
 .profile-link > a {
     text-decoration: none;
@@ -84,6 +82,11 @@
     color: black;
 }
 
-.contact-section {
-    color: blueviolet;
+
+
+@media (max-width: 500px) {
+    .head {
+     background-color: black;
+     color: white;
+    }
 }
