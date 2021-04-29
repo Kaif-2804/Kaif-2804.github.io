@@ -51,6 +51,7 @@
 .project-container{
     display: grid;
     grid-column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr) );
     background-color: peru;
     padding-bottom: 10px;
     padding-right: 10px;
