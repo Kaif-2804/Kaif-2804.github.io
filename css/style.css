@@ -70,3 +70,10 @@
     color: rgb(239, 255, 66);
 
 }
+
+@media (max-width: 600px) {
+    .head {
+     background-color: black;
+     color: white;
+    }
+}
